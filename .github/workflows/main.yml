@@ -46,4 +46,4 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: site
-          path: target/site/pmd.html
+          path: areTheSame/target/site/pmd.html
