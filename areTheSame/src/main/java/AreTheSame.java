@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 public class AreTheSame {
     public static boolean comp(int[] a, int[] b) {
         int unUsing;
+
         if (a == null || b == null)
             return false;
         if (a.length != b.length)
