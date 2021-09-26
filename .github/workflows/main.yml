@@ -35,11 +35,12 @@ jobs:
     steps:
         
       - name: Run statistical analysis
-        uses: actions/download-artifact@v2
-        with: 
-          name: site
-          path: target/site/pmd.html
-        
+
       - run: |
           cd areTheSame
           mvn pmd:pmd   
+          
+      - uses: actions/download-artifact@v2
+        with:
+          name: site
+          path: target/site/pmd.html
