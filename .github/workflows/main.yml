@@ -31,6 +31,9 @@ jobs:
       
       - name: Where is me?
         run: pwd
+        
+      - name: Step forward?
+        run: ls -al 
       
       - name: Install project
         run: mvn install
