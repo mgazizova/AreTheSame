@@ -36,6 +36,7 @@ jobs:
       - name: Run statistical analysis
         run: |
           pwd
+          ls -al
           cd areTheSame
           mvn pmd:pmd   
           
