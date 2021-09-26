@@ -29,6 +29,8 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
       
+      - name: Where is me?
+        run: pwd
       
       - name: Install project
         run: mvn install
