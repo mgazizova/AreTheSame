@@ -31,7 +31,7 @@ jobs:
       
       - name: Install project
         run: |
-          cd areTheSame ,
+          cd areTheSame 
           mvn clean install
 
       # Runs a set of commands using the runners shell
